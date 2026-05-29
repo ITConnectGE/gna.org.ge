@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Geo_Times';
+	src: url(../../assets/fonts/Geo_Times-fb645c713b04129a299cde90b0fe4ac8.woff2) format('woff2'),
+	url(../../assets/fonts/Geo_Times-0fea4e0607d4773338cbbe03b71c158c.woff) format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}

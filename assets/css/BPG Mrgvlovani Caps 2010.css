@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'BPG Mrgvlovani Caps 2010';
+	src: url(../../assets/fonts/BPG%20Mrgvlovani%20Caps%202010-62d0db44d9f7b653591295a3e9e62c92.woff2) format('woff2'),
+	url(../../assets/fonts/BPG%20Mrgvlovani%20Caps%202010-5e9428f44a0240c5b95f14955fa36c9d.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}

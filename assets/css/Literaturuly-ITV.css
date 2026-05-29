@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'Literaturuly-ITV';
+	src: url(../../assets/fonts/Literaturuly-ITV-89ea5605342481e68cf8067ee1a067f3.woff2) format('woff2'),
+	url(../../assets/fonts/Literaturuly-ITV-e3703fc10c7f2f90ed5fe8946e7dccb1.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Literaturuly-ITV';
+	src: url(../../assets/fonts/Literaturuly-ITV-456b44fbba692e9705b0472f6e5a6942.woff2) format('woff2'),
+	url(../../assets/fonts/Literaturuly-ITV-8c3d36b947bcc9dd93f847e192b93074.woff) format('woff');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}

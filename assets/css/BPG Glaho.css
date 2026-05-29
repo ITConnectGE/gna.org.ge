@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'BPG Glaho';
+	src: url(../../assets/fonts/BPG%20Glaho-199d8b7cee40a08efe28dda27b25fe86.woff2) format('woff2'),
+	url(../../assets/fonts/BPG%20Glaho-925a2ce66d29a80b50a96f1ed1d7a780.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}

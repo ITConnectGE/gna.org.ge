@@ -1,0 +1,118 @@
+::selection {
+  color: #ffffff;
+  background: #3d8b79;
+}
+
+.menu-navbar {
+  background-color: #3d8b79;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list > li {
+  display: inline-block;
+  margin-right: 91px;
+  /*border: 1px solid black;*/
+  position: relative;
+}
+
+.menu-list li:last-child {
+  margin-right: 0;
+}
+
+.menu-list a {
+  text-decoration: none;
+  /*color: #e0e0e0 !important;*/
+}
+
+.text-box1 {
+  background: #fff;
+  border-radius: 12px;
+}
+
+/* 11111 */
+
+.dropdown-menu {
+  opacity: 0;
+  display: block;
+  visibility: hidden;
+  /*position: absolute;*/
+  /*top: 160%;*/
+  /*transform: translateX(-20%);*/
+  /*left: 0;*/
+  background-color: rgb(249,249,249);
+  border-radius: 8px;
+  width: auto;
+  border: initial;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+  z-index: 9999;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.dropdown-menu .dropdown-item {
+  display: block;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  color: #000000;
+  /*font-weight: 500;*/
+  font-size: medium;
+  transition: all 0.2s ease, transform 0.3s ease;
+  border-bottom: 10px solid #0f413d;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgba(51,169,160,0);
+  border-radius: 10px;
+}
+
+.dropdown-menu .dropdown-item:last-child {
+  border-bottom: none;
+}
+
+.dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:focus {
+  background-color: rgba(51,169,160,0);
+  color: #000000;
+  border-radius: 10px;
+}
+
+.dropdown-menu .dropdown-item:active {
+  font-weight: bold;
+  /*transform: scale(1.05);*/
+  color: #000;
+}
+
+.menu-list li:hover > .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s;
+}
+
+.menu-list li:hover > .dropdown-menu:hover {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s;
+}
+
+.menu-list li:not(:hover) > .dropdown-menu {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0s linear 0.3s;
+}
+
+.dropdown-style-menu {
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 8px;
+  padding: 0.5rem 0;
+  width: 200px;
+}
+
+.menu-list li .dropdown-menu, .menu-list li .dropdown-menu.show {
+  top: 160% !important;
+  transform: translateX(-20%) !important;
+}
+

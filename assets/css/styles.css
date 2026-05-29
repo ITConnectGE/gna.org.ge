@@ -1,0 +1,41 @@
+::-moz-selection {
+  color: #ffffff;
+  background: #3d8b79;
+}
+
+::selection {
+  color: #ffffff;
+  background: #3d8b79;
+}
+
+.menu-navbar {
+  background-color: #3d8b79;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list li {
+  display: inline-block;
+  margin-right: 91px;
+  /*border: 1px solid black;*/
+  padding: 0px 20px;
+}
+
+.menu-list li:last-child {
+  margin-right: 0;
+}
+
+.menu-list a {
+  text-decoration: none;
+  color: #e0e0e0 !important;
+}
+
+.text-box1 {
+  background: #fff;
+  border-radius: 12px;
+}
+

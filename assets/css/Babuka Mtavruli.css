@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Babuka Mtavruli';
+	src: url(../../assets/fonts/Babuka%20Mtavruli-2559bb07e7874ca855c55ca30ce82f7b.woff2) format('woff2'),
+	url(../../assets/fonts/Babuka%20Mtavruli-769c42e4e215c19f420916fd10c66ddb.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
