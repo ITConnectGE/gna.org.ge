@@ -1,49 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://gna.org.ge/</loc>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://gna.org.ge/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gna.org.ge/en/index.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://gna.org.ge/"/>
+        <lastmod>2026-05-29</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://gna.org.ge/en/index.html</loc>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://gna.org.ge/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gna.org.ge/en/index.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://gna.org.ge/"/>
         <lastmod>2026-05-29</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://gna.org.ge/Education/resources.html</loc>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://gna.org.ge/Education/resources.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gna.org.ge/en/Education/resources.html"/>
+        <lastmod>2026-05-29</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://gna.org.ge/en/Education/resources.html</loc>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://gna.org.ge/Education/resources.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gna.org.ge/en/Education/resources.html"/>
         <lastmod>2026-05-29</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://gna.org.ge/Education/what-is-neuropsychology.html</loc>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://gna.org.ge/Education/what-is-neuropsychology.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gna.org.ge/en/Education/what-is-neuropsychology.html"/>
+        <lastmod>2026-05-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://gna.org.ge/en/Education/what-is-neuropsychology.html</loc>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://gna.org.ge/Education/what-is-neuropsychology.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gna.org.ge/en/Education/what-is-neuropsychology.html"/>
         <lastmod>2026-05-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://gna.org.ge/Education/neuro-rehabilitation.html</loc>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://gna.org.ge/Education/neuro-rehabilitation.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gna.org.ge/en/Education/neuro-rehabilitation.html"/>
+        <lastmod>2026-05-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://gna.org.ge/en/Education/neuro-rehabilitation.html</loc>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://gna.org.ge/Education/neuro-rehabilitation.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gna.org.ge/en/Education/neuro-rehabilitation.html"/>
         <lastmod>2026-05-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://gna.org.ge/Membership/reestri.html</loc>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://gna.org.ge/Membership/reestri.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gna.org.ge/en/Membership/reestri.html"/>
+        <lastmod>2026-05-29</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://gna.org.ge/en/Membership/reestri.html</loc>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://gna.org.ge/Membership/reestri.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gna.org.ge/en/Membership/reestri.html"/>
         <lastmod>2026-05-29</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://gna.org.ge/Membership/members.html</loc>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://gna.org.ge/Membership/members.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gna.org.ge/en/Membership/members.html"/>
+        <lastmod>2026-05-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://gna.org.ge/en/Membership/members.html</loc>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://gna.org.ge/Membership/members.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gna.org.ge/en/Membership/members.html"/>
         <lastmod>2026-05-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://gna.org.ge/Membership/registration.html</loc>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://gna.org.ge/Membership/registration.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gna.org.ge/en/Membership/registration.html"/>
+        <lastmod>2026-05-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://gna.org.ge/en/Membership/registration.html</loc>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://gna.org.ge/Membership/registration.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gna.org.ge/en/Membership/registration.html"/>
         <lastmod>2026-05-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://gna.org.ge/contacts.html</loc>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://gna.org.ge/contacts.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gna.org.ge/en/contacts.html"/>
+        <lastmod>2026-05-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://gna.org.ge/en/contacts.html</loc>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://gna.org.ge/contacts.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gna.org.ge/en/contacts.html"/>
         <lastmod>2026-05-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
