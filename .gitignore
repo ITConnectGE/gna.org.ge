@@ -4,3 +4,8 @@ Thumbs.db
 node_modules/
 .vscode/
 .idea/
+
+# Local source materials (not for publishing)
+docs/
+*.docx
+~$*
