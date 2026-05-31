@@ -73,20 +73,32 @@ img { max-width: 100%; height: auto; }
         font-size: 16px;
     }
 
-    /* Dropdowns inline on mobile (no hover, click to toggle via JS) */
-    .menu-list .dropdown-menu {
+    /* Dropdowns inline on mobile (override Bootstrap Popper inline styles) */
+    .menu-list .dropdown-menu,
+    .menu-list .dropdown-menu.show {
         position: static !important;
         transform: none !important;
+        inset: auto !important;
+        top: auto !important;
+        left: auto !important;
+        right: auto !important;
+        bottom: auto !important;
+        margin: 0 16px 8px !important;
+        width: auto !important;
+        min-width: 0 !important;
         opacity: 0;
         visibility: hidden;
         display: none !important;
-        margin: 0 16px 8px !important;
-        box-shadow: none;
+        box-shadow: none !important;
         background: rgba(0, 0, 0, 0.18) !important;
+        border: none !important;
         border-radius: 8px;
         padding: 4px !important;
+        float: none !important;
+        will-change: auto !important;
     }
-    .menu-list li.mobile-open > .dropdown-menu {
+    .menu-list li.mobile-open > .dropdown-menu,
+    .menu-list li.mobile-open > .dropdown-menu.show {
         display: block !important;
         opacity: 1 !important;
         visibility: visible !important;
@@ -95,8 +107,11 @@ img { max-width: 100%; height: auto; }
         border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
         color: #fff !important;
         padding: 10px 14px !important;
+        white-space: normal !important;
     }
     .menu-list .dropdown-menu .dropdown-item:last-child { border-bottom: none !important; }
+    /* Hide caret/chevron rotation indicator alignment */
+    .menu-list .dropdown-toggle::after { float: right; margin-top: 8px; }
 
     /* Section padding adjustments */
     section.pb-5 { padding-bottom: 2rem !important; }

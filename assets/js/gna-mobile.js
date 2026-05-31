@@ -25,18 +25,55 @@
             });
         }
 
+        function isMobile() { return window.innerWidth <= 768; }
+
+        function disableBsDropdownsOnMobile() {
+            if (!isMobile()) return;
+            document.querySelectorAll('.menu-list .dropdown-toggle').forEach(function (toggle) {
+                if (toggle.dataset._bsToggleOrig === undefined && toggle.hasAttribute('data-bs-toggle')) {
+                    toggle.dataset._bsToggleOrig = toggle.getAttribute('data-bs-toggle');
+                    toggle.removeAttribute('data-bs-toggle');
+                }
+                if (window.bootstrap && window.bootstrap.Dropdown) {
+                    var inst = window.bootstrap.Dropdown.getInstance(toggle);
+                    if (inst) inst.dispose();
+                }
+            });
+            document.querySelectorAll('.menu-list .dropdown-menu').forEach(function (m) {
+                m.classList.remove('show');
+                m.removeAttribute('data-popper-placement');
+                m.removeAttribute('data-popper-escaped');
+                m.style.removeProperty('position');
+                m.style.removeProperty('inset');
+                m.style.removeProperty('transform');
+                m.style.removeProperty('margin');
+            });
+        }
+
+        function restoreBsDropdownsOnDesktop() {
+            if (isMobile()) return;
+            document.querySelectorAll('.menu-list .dropdown-toggle').forEach(function (toggle) {
+                if (toggle.dataset._bsToggleOrig !== undefined) {
+                    toggle.setAttribute('data-bs-toggle', toggle.dataset._bsToggleOrig);
+                    delete toggle.dataset._bsToggleOrig;
+                }
+            });
+        }
+
+        disableBsDropdownsOnMobile();
+
         document.querySelectorAll('.menu-list .dropdown-toggle').forEach(function (toggle) {
             toggle.addEventListener('click', function (e) {
-                if (window.innerWidth <= 768) {
+                if (isMobile()) {
                     e.preventDefault();
-                    e.stopPropagation();
+                    e.stopImmediatePropagation();
                     var parent = toggle.parentElement;
                     document.querySelectorAll('.menu-list li.mobile-open').forEach(function (li) {
                         if (li !== parent) li.classList.remove('mobile-open');
                     });
                     parent.classList.toggle('mobile-open');
                 }
-            });
+            }, true);
         });
 
         document.addEventListener('click', function (e) {
@@ -55,6 +92,9 @@
                 document.querySelectorAll('.menu-list li.mobile-open').forEach(function (li) {
                     li.classList.remove('mobile-open');
                 });
+                restoreBsDropdownsOnDesktop();
+            } else {
+                disableBsDropdownsOnMobile();
             }
         });
     });
