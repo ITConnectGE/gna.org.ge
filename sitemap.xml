@@ -23,9 +23,25 @@
         <loc>https://gna.org.ge/Education/resources.html</loc>
         <xhtml:link rel="alternate" hreflang="ka" href="https://gna.org.ge/Education/resources.html"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://gna.org.ge/en/Education/resources.html"/>
-        <lastmod>2026-05-29</lastmod>
+        <lastmod>2026-05-31</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://gna.org.ge/Education/trainings.html</loc>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://gna.org.ge/Education/trainings.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gna.org.ge/en/Education/trainings.html"/>
+        <lastmod>2026-05-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://gna.org.ge/en/Education/trainings.html</loc>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://gna.org.ge/Education/trainings.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gna.org.ge/en/Education/trainings.html"/>
+        <lastmod>2026-05-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
     </url>
     <url>
         <loc>https://gna.org.ge/en/Education/resources.html</loc>
