@@ -73,9 +73,9 @@ img { max-width: 100%; height: auto; }
         font-size: 16px;
     }
 
-    /* Dropdowns inline on mobile (override Bootstrap Popper inline styles) */
-    .menu-list .dropdown-menu,
-    .menu-list .dropdown-menu.show {
+    /* Dropdowns inline on mobile (override Bootstrap Popper + styles.min.css with higher specificity) */
+    .menu-list li .dropdown-menu,
+    .menu-list li .dropdown-menu.show {
         position: static !important;
         transform: none !important;
         inset: auto !important;
@@ -98,7 +98,8 @@ img { max-width: 100%; height: auto; }
         will-change: auto !important;
     }
     .menu-list li.mobile-open > .dropdown-menu,
-    .menu-list li.mobile-open > .dropdown-menu.show {
+    .menu-list li.mobile-open > .dropdown-menu.show,
+    .menu-list li li.mobile-open > .dropdown-menu {
         display: block !important;
         opacity: 1 !important;
         visibility: visible !important;
