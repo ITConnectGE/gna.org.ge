@@ -36,7 +36,7 @@ img { max-width: 100%; height: auto; }
     /* Logo area — leave room for hamburger and language switch */
     section#logo { padding-top: 14px; padding-bottom: 8px; }
     section#logo .container { padding-top: 50px !important; padding-bottom: 4px !important; }
-    section#logo img { max-height: 55px !important; height: 55px !important; width: auto !important; }
+    section#logo img { width: auto !important; max-width: 100% !important; }
 
     /* Language switcher smaller */
     .lang-switch { top: 14px; right: 12px; }
@@ -160,7 +160,6 @@ img { max-width: 100%; height: auto; }
 
 /* ===== Very small phones ===== */
 @media (max-width: 380px) {
-    section#logo img { max-height: 45px !important; height: 45px !important; }
     .article-hero-title { font-size: 1.1rem !important; }
     h2 { font-size: 1.35rem !important; }
 }
